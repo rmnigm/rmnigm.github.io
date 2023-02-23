@@ -3,10 +3,12 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Дата-инженерия # TBD">
+<meta name="description" content="Дата-инженерия # Иногда данных становится так много, что нельзя просто обрабатывать их говнокодом в Jupyter-ноутбуке и таскать SQL-селектами с production-базы. Тогда приходится нанимать дата-инженеров, чтобы они делали отказоустойчивую доставку и обработку нужных данных для всех потребителей. Круто, да?
+SQL # Интерактивный учебник попроще # SQL Bolt &ndash; простенький, но красивый и хороший учебник, чтобы понять основные концепции SQL и научиться основному синтаксису. Must read для любого, кто будет работать с данными &ndash; пригодится.">
 <meta name="theme-color" content="#FFFFFF">
 <meta name="color-scheme" content="light dark"><meta property="og:title" content="Дата-инженерия" />
-<meta property="og:description" content="Дата-инженерия # TBD" />
+<meta property="og:description" content="Дата-инженерия # Иногда данных становится так много, что нельзя просто обрабатывать их говнокодом в Jupyter-ноутбуке и таскать SQL-селектами с production-базы. Тогда приходится нанимать дата-инженеров, чтобы они делали отказоустойчивую доставку и обработку нужных данных для всех потребителей. Круто, да?
+SQL # Интерактивный учебник попроще # SQL Bolt &ndash; простенький, но красивый и хороший учебник, чтобы понять основные концепции SQL и научиться основному синтаксису. Must read для любого, кто будет работать с данными &ndash; пригодится." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://rmnigm.github.io/docs/handbook/data-engineering/" /><meta property="article:section" content="docs" />
 
@@ -16,7 +18,7 @@
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/book.min.c58292d36b18b675680ab9baea2029204537b839ea72f258746ec0f32ce8d6c8.css" integrity="sha256-xYKS02sYtnVoCrm66iApIEU3uDnqcvJYdG7A8yzo1sg=" crossorigin="anonymous">
   <script defer src="/flexsearch.min.js"></script>
-  <script defer src="/en.search.min.4c2ec33e80ddd9a27fe810356b56b6ffdfed2817115f7eb5934d1882a2c6cf89.js" integrity="sha256-TC7DPoDd2aJ/6BA1a1a2/9/tKBcRX361k00YgqLGz4k=" crossorigin="anonymous"></script>
+  <script defer src="/en.search.min.0bbafddee637ff3e4e577ad578f91da905bc0ada1c113dd82b74395188e6878e.js" integrity="sha256-C7r93uY3/z5OV3rVePkdqQW8CtocET3YK3Q5UYjmh44=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -285,7 +287,16 @@ https://github.com/alex-shpak/hugo-book
   <aside class="hidden clearfix">
     
   
-<nav id="TableOfContents"></nav>
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#sql">SQL</a>
+      <ul>
+        <li><a href="#интерактивный-учебник-попрощеhttpssqlboltcom"><a href="https://sqlbolt.com/">Интерактивный учебник попроще</a></a></li>
+        <li><a href="#задачник-посложнееhttpssql-exru"><a href="https://sql-ex.ru">Задачник посложнее</a></a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
 
 
 
@@ -300,7 +311,27 @@ https://github.com/alex-shpak/hugo-book
   Дата-инженерия
   <a class="anchor" href="#%d0%b4%d0%b0%d1%82%d0%b0-%d0%b8%d0%bd%d0%b6%d0%b5%d0%bd%d0%b5%d1%80%d0%b8%d1%8f">#</a>
 </h1>
-<p><strong>TBD</strong></p>
+<p>Иногда данных становится так много, что нельзя просто обрабатывать их говнокодом в Jupyter-ноутбуке и таскать SQL-селектами с production-базы. Тогда приходится нанимать дата-инженеров, чтобы они делали отказоустойчивую доставку и обработку нужных данных для всех потребителей. Круто, да?</p>
+<h2 id="sql">
+  SQL
+  <a class="anchor" href="#sql">#</a>
+</h2>
+<h3 id="интерактивный-учебник-попрощеhttpssqlboltcom">
+  <a href="https://sqlbolt.com/">Интерактивный учебник попроще</a>
+  <a class="anchor" href="#%d0%b8%d0%bd%d1%82%d0%b5%d1%80%d0%b0%d0%ba%d1%82%d0%b8%d0%b2%d0%bd%d1%8b%d0%b9-%d1%83%d1%87%d0%b5%d0%b1%d0%bd%d0%b8%d0%ba-%d0%bf%d0%be%d0%bf%d1%80%d0%be%d1%89%d0%b5httpssqlboltcom">#</a>
+</h3>
+<blockquote class="book-hint info">
+  SQL Bolt &ndash; простенький, но красивый и хороший учебник, чтобы понять основные концепции SQL и научиться основному синтаксису. Must read для любого, кто будет работать с данными &ndash; пригодится.
+</blockquote>
+
+<h3 id="задачник-посложнееhttpssql-exru">
+  <a href="https://sql-ex.ru">Задачник посложнее</a>
+  <a class="anchor" href="#%d0%b7%d0%b0%d0%b4%d0%b0%d1%87%d0%bd%d0%b8%d0%ba-%d0%bf%d0%be%d1%81%d0%bb%d0%be%d0%b6%d0%bd%d0%b5%d0%b5httpssql-exru">#</a>
+</h3>
+<blockquote class="book-hint info">
+  SQL-EX &ndash; огромный набор задач, в том числе довольно сложных, по реляционным языкам. Идеально, чтобы оттачивать скиллы к собеседованиям и проверять себя на действительно нетривиальных задачах.
+</blockquote>
+
 </article>
  
       
@@ -340,7 +371,16 @@ https://github.com/alex-shpak/hugo-book
       <div class="book-toc-content">
         
   
-<nav id="TableOfContents"></nav>
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#sql">SQL</a>
+      <ul>
+        <li><a href="#интерактивный-учебник-попрощеhttpssqlboltcom"><a href="https://sqlbolt.com/">Интерактивный учебник попроще</a></a></li>
+        <li><a href="#задачник-посложнееhttpssql-exru"><a href="https://sql-ex.ru">Задачник посложнее</a></a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
 
 
  
