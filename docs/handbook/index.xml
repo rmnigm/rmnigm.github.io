@@ -1,21 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Introduction on from life import happiness, teaching</title>
-    <link>http://rmnigm.github.io/</link>
-    <description>Recent content in Introduction on from life import happiness, teaching</description>
+    <title>Handbook on from life import happiness, teaching</title>
+    <link>http://rmnigm.github.io/docs/handbook/</link>
+    <description>Recent content in Handbook on from life import happiness, teaching</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://rmnigm.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title></title>
-      <link>http://rmnigm.github.io/docs/data-analytics-course/python/data-structures/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://rmnigm.github.io/docs/data-analytics-course/python/data-structures/</guid>
-      <description>Data Structures in Python # Вообще тут по-хорошему надо записать пару тезисов, что я рассказывал на лекции, но вообще в Python есть:
-list tuple set dict frozenset counter deque heapq Почитать можно в документации, а пока на этом можно закончить, всем спасибо!</description>
-    </item>
-    
+    <language>en-us</language><atom:link href="http://rmnigm.github.io/docs/handbook/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Computer Vision</title>
       <link>http://rmnigm.github.io/docs/handbook/computer-vision/</link>

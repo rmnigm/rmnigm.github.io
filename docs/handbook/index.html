@@ -3,22 +3,20 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Data Structures in Python # Вообще тут по-хорошему надо записать пару тезисов, что я рассказывал на лекции, но вообще в Python есть:
-list tuple set dict frozenset counter deque heapq Почитать можно в документации, а пока на этом можно закончить, всем спасибо!">
+<meta name="description" content="Data Handbook # Что это такое? # Этот раздел содержит ссылки на курсы, задачи, лекции, учебники, проекты, open-source инструменты и статьи про все связанное с анализом данных. Есть много больших, на мой взгляд, разделов - в них я собрал кое-что полезное.
+Содержание # Эти разделы полезны скорее всем и содержат какие-то крутые курсы для общего развития, must read. Математика Разработка, языки программирования Компьютерные науки и инструменты Алгоритмы, структуры данных Эти разделы более специфичны для моей области интересов, но если вы увлекаетесь тем же - тоже must read.">
 <meta name="theme-color" content="#FFFFFF">
-<meta name="color-scheme" content="light dark"><meta property="og:title" content="" />
-<meta property="og:description" content="Data Structures in Python # Вообще тут по-хорошему надо записать пару тезисов, что я рассказывал на лекции, но вообще в Python есть:
-list tuple set dict frozenset counter deque heapq Почитать можно в документации, а пока на этом можно закончить, всем спасибо!" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="http://rmnigm.github.io/docs/data-analytics-course/python/data-structures/" /><meta property="article:section" content="docs" />
-
-
-<title>Data Structures | from life import happiness, teaching</title>
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="Handbook" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://rmnigm.github.io/docs/handbook/" />
+<title>Handbook | from life import happiness, teaching</title>
 <link rel="manifest" href="/manifest.json">
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/book.min.c58292d36b18b675680ab9baea2029204537b839ea72f258746ec0f32ce8d6c8.css" integrity="sha256-xYKS02sYtnVoCrm66iApIEU3uDnqcvJYdG7A8yzo1sg=" crossorigin="anonymous">
   <script defer src="/flexsearch.min.js"></script>
   <script defer src="/en.search.min.4c2ec33e80ddd9a27fe810356b56b6ffdfed2817115f7eb5934d1882a2c6cf89.js" integrity="sha256-TC7DPoDd2aJ/6BA1a1a2/9/tKBcRX361k00YgqLGz4k=" crossorigin="anonymous"></script>
+<link rel="alternate" type="application/rss+xml" href="http://rmnigm.github.io/docs/handbook/index.xml" title="from life import happiness, teaching" />
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -83,7 +81,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <input type="checkbox" id="section-9df330ab1fa139a8c9676de1bcc79ed7" class="toggle" checked />
+    <input type="checkbox" id="section-9df330ab1fa139a8c9676de1bcc79ed7" class="toggle"  />
     <label for="section-9df330ab1fa139a8c9676de1bcc79ed7" class="flex justify-between">
       <a href="/docs/data-analytics-course/python/" class="">Python</a>
     </label>
@@ -99,7 +97,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="/docs/data-analytics-course/python/data-structures/" class="active">Data Structures</a>
+    <a href="/docs/data-analytics-course/python/data-structures/" class="">Data Structures</a>
   
 
         </li>
@@ -122,7 +120,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="/docs/handbook/" class="">Handbook</a>
+    <a href="/docs/handbook/" class="active">Handbook</a>
   
 
           
@@ -273,7 +271,7 @@ https://github.com/alex-shpak/hugo-book
     <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
   </label>
 
-  <strong>Data Structures</strong>
+  <strong>Handbook</strong>
 
   <label for="toc-control">
     
@@ -287,7 +285,12 @@ https://github.com/alex-shpak/hugo-book
   <aside class="hidden clearfix">
     
   
-<nav id="TableOfContents"></nav>
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#что-это-такое">Что это такое?</a></li>
+    <li><a href="#содержание">Содержание</a></li>
+  </ul>
+</nav>
 
 
 
@@ -298,22 +301,39 @@ https://github.com/alex-shpak/hugo-book
 
       
       
-  <article class="markdown"><h1 id="data-structures-in-python">
-  Data Structures in Python
-  <a class="anchor" href="#data-structures-in-python">#</a>
+  <article class="markdown"><h1 id="data-handbook">
+  Data Handbook
+  <a class="anchor" href="#data-handbook">#</a>
 </h1>
-<p>Вообще тут по-хорошему надо записать пару тезисов, что я рассказывал на лекции, но вообще в Python есть:</p>
+<h2 id="что-это-такое">
+  Что это такое?
+  <a class="anchor" href="#%d1%87%d1%82%d0%be-%d1%8d%d1%82%d0%be-%d1%82%d0%b0%d0%ba%d0%be%d0%b5">#</a>
+</h2>
+<p>Этот раздел содержит ссылки на курсы, задачи, лекции, учебники, проекты, open-source инструменты и статьи про все связанное с анализом данных. Есть много больших, на мой взгляд, разделов - в них я собрал кое-что полезное.</p>
+<h2 id="содержание">
+  Содержание
+  <a class="anchor" href="#%d1%81%d0%be%d0%b4%d0%b5%d1%80%d0%b6%d0%b0%d0%bd%d0%b8%d0%b5">#</a>
+</h2>
+<blockquote class="book-hint info">
+  Эти разделы полезны скорее всем и содержат какие-то крутые курсы для общего развития, <strong>must read</strong>.
+</blockquote>
+
 <ul>
-<li>list</li>
-<li>tuple</li>
-<li>set</li>
-<li>dict</li>
-<li>frozenset</li>
-<li>counter</li>
-<li>deque</li>
-<li>heapq</li>
+<li><a href="/docs/handbook/math/">Математика</a></li>
+<li><a href="/docs/handbook/software-development/">Разработка, языки программирования</a></li>
+<li><a href="/docs/handbook/cs-101/">Компьютерные науки и инструменты</a></li>
+<li><a href="/docs/handbook/cs-101/">Алгоритмы, структуры данных</a></li>
 </ul>
-<p>Почитать можно в документации, а пока на этом можно закончить, всем спасибо!</p>
+<blockquote class="book-hint info">
+  Эти разделы более специфичны для моей области интересов, но если вы увлекаетесь тем же - тоже <strong>must read</strong>.
+</blockquote>
+
+<ul>
+<li><a href="/docs/handbook/machine-learning/">Машинное обучение</a></li>
+<li><a href="/docs/handbook/data-engineering/">Дата-инженерия</a></li>
+<li><a href="/docs/handbook/computer-vision/">Компьютерное зрение</a></li>
+<li><a href="/docs/handbook/applied-ds/">Задачи анализа данных</a></li>
+</ul>
 </article>
  
       
@@ -353,7 +373,12 @@ https://github.com/alex-shpak/hugo-book
       <div class="book-toc-content">
         
   
-<nav id="TableOfContents"></nav>
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#что-это-такое">Что это такое?</a></li>
+    <li><a href="#содержание">Содержание</a></li>
+  </ul>
+</nav>
 
 
  
