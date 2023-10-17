@@ -1,6 +1,6 @@
 {
-  "name": "from life import happiness, teaching",
-  "short_name": "from life import happiness, teaching",
+  "name": "from life import happiness",
+  "short_name": "from life import happiness",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
