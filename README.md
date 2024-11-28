@@ -1,3 +1,0 @@
-# Personal website
-
-I guess?
